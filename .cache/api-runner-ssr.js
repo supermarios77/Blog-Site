@@ -1,6 +1,10 @@
 var plugins = [{
+      name: 'gatsby-plugin-image',
+      plugin: require('/Users/Mariotte/Documents/Blog-Site/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
       name: 'partytown',
-      plugin: require('/Users/Mariotte/Documents/blog-site-made-with-gatsby/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('/Users/Mariotte/Documents/Blog-Site/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */
